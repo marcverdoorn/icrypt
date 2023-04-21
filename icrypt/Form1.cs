@@ -127,7 +127,7 @@ namespace icrypt
 
         public void encrypt(string path, string key)
         {
-            string[] files = Directory.GetFiles(path);
+            string[] files = Directory.GetFiles(path, "*.*", SearchOption.AllDirectories);
             progressBar1.Minimum = 0;
             progressBar1.Maximum = files.Length;
             progressBar1.Value = 0;
@@ -140,14 +140,14 @@ namespace icrypt
                 string dest = file.Split('.')[0] + "encr." + ext;
                 EncryptFile(file, dest, key);
                 progressBar1.PerformStep();
-                //File.Delete(file);
+                File.Delete(file);
             }
             progressBar1.Visible = false;
         }
 
         public void decrypt(string path, string key)
         {
-            string[] files = Directory.GetFiles(path);
+            string[] files = Directory.GetFiles(path, "*.*", SearchOption.AllDirectories);
             progressBar1.Minimum = 0;
             progressBar1.Maximum = files.Length;
             progressBar1.Value = 0;
@@ -155,12 +155,10 @@ namespace icrypt
             progressBar1.Visible = true;
             foreach (string file in files)
             {
-                string ext = file.Split('.').Last();
-                string dest = file.Split('.')[0] + "dcr." + ext;
-
+                string dest = file.Replace("encr", "");
                 DecryptFile(file, dest, key);
                 progressBar1.PerformStep();
-                //File.Delete(file);
+                File.Delete(file);
             }
             progressBar1.Visible = false;
         }
