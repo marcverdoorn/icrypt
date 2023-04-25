@@ -1,0 +1,11 @@
+C:\Users\marcv\source\repos\icrypt\icrypt\bin\Debug\icrypt.exe.config
+C:\Users\marcv\source\repos\icrypt\icrypt\bin\Debug\icrypt.exe
+C:\Users\marcv\source\repos\icrypt\icrypt\bin\Debug\icrypt.pdb
+C:\Users\marcv\source\repos\icrypt\icrypt\obj\Debug\icrypt.csproj.AssemblyReference.cache
+C:\Users\marcv\source\repos\icrypt\icrypt\obj\Debug\icrypt.csproj.SuggestedBindingRedirects.cache
+C:\Users\marcv\source\repos\icrypt\icrypt\obj\Debug\icrypt.Form1.resources
+C:\Users\marcv\source\repos\icrypt\icrypt\obj\Debug\icrypt.Properties.Resources.resources
+C:\Users\marcv\source\repos\icrypt\icrypt\obj\Debug\icrypt.csproj.GenerateResource.cache
+C:\Users\marcv\source\repos\icrypt\icrypt\obj\Debug\icrypt.csproj.CoreCompileInputs.cache
+C:\Users\marcv\source\repos\icrypt\icrypt\obj\Debug\icrypt.exe
+C:\Users\marcv\source\repos\icrypt\icrypt\obj\Debug\icrypt.pdb
