@@ -5,3 +5,4 @@ Every file in the selected folder will be encrypted or decrypted.
 
 # DISCLAIMER!
 This project is a work in progress. No real security and reliability is guaranteed.
+(If you use this program and are encrypting big folders, the program interface will freeze but it will still be working fine in the background. Just wait until it is finished.)
